@@ -11,8 +11,10 @@ const TaskList = () => {
             {
                 tasks.map(task => (
                     <div key={task.id}>
-                        <h1>{task.task}</h1>
-                        <button onClick={() => removeTask(task.id)}>Delete</button>
+                        <div className='card mt-5 text-center shadow p-3 mb-5 bg-body rounded' style={{ width: "50%", marginLeft: "3rem" }}>
+                            <h1>{task.task}</h1>
+                            <button onClick={() => removeTask(task.id)} className="btn btn-primary">Delete</button>
+                        </div>
                     </div>
 
                 ))

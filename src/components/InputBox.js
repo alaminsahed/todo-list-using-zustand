@@ -17,9 +17,14 @@ const InputBox = () => {
     }
 
     return (
-        <div>
-            <input type="text" value={input} onChange={(e) => { setInput(e.target.value) }} />
-            <button onClick={() => taskSubmitHandler()}>Add</button>
+        <div className=' d-flex justify-content-center mt-5'>
+            <div>
+                <input type="text" value={input} onChange={(e) => { setInput(e.target.value) }} placeholder="Add Your Task" className='border border-2 rounded rounded-1 border-dark p-1' />
+            </div>
+
+            <div className='ms-3'>
+                <button onClick={() => taskSubmitHandler()} className='btn btn-info'>Add</button>
+            </div>
 
         </div>
     );
