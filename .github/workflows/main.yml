@@ -23,7 +23,7 @@ jobs:
         run: npm run build
 
       - name: Deploy to Vercel
-        uses: vercel/actions@v20
+        uses: vercel/actions@main
         with:
           token: ${{ secrets.VERCEL_TOKEN }}
           args: '--prod'
