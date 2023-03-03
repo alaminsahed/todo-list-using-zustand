@@ -28,6 +28,11 @@
       "npm run format"
     ]
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -55,6 +60,7 @@
     "eslint-plugin-react": "^7.32.2",
     "husky": "^8.0.3",
     "lint-staged": "^13.1.2",
-    "prettier": "2.8.4"
+    "prettier": "2.8.4",
+    "pretty-quick": "^3.1.3"
   }
 }
