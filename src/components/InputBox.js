@@ -33,6 +33,7 @@ const InputBox = () => {
         <button onClick={() => taskSubmitHandler()} className='btn btn-info'>
           Add
         </button>
+        <p>Test CI/CD</p>
       </div>
     </div>
   );
