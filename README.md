@@ -4,4 +4,4 @@
 
 ### Technology: React.js, Bootstrap 5
 
-[More Deatails in this blog](https://sahedthought.hashnode.dev/state-management-using-zustand-in-reactjs-with-a-project-beginner) 
+[More Deatails in this blog](https://sahedthought.hashnode.dev/state-management-using-zustand-in-reactjs-with-a-project-beginner)
