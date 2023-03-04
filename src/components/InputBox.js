@@ -7,7 +7,6 @@ const InputBox = () => {
   const addTask = useStore((state) => state.addTask);
 
   const taskSubmitHandler = () => {
-    console.log(input);
     addTask({
       id: Date.now(),
       task: input,
@@ -33,7 +32,6 @@ const InputBox = () => {
         <button onClick={() => taskSubmitHandler()} className='btn btn-info'>
           Add
         </button>
-        <p>Test CI/CD! ow it working. precommit test</p>
       </div>
     </div>
   );
